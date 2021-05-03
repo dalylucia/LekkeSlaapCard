@@ -10,7 +10,7 @@ import Card from '@/components/Card.vue';
 
 export default {
   metaInfo: {
-    title: "Hello, world!",
+    title: "Lekkeslaap Template",
   },
   components: {
 	  Card,
