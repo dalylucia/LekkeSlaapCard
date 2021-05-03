@@ -1,5 +1,5 @@
-const c1 = () => import(/* webpackChunkName: "page--node-modules--gridsome--app--pages--404-vue" */ "/Users/luciadaly/Desktop/Tripco/lekkeslaap/node_modules/gridsome/app/pages/404.vue")
-const c2 = () => import(/* webpackChunkName: "page--src--pages--index-vue" */ "/Users/luciadaly/Desktop/Tripco/lekkeslaap/src/pages/Index.vue")
+const c1 = () => import(/* webpackChunkName: "page--node-modules--gridsome--app--pages--404-vue" */ "/Users/luciadaly/Desktop/Tripco/LekkeSlaapCard/node_modules/gridsome/app/pages/404.vue")
+const c2 = () => import(/* webpackChunkName: "page--src--pages--index-vue" */ "/Users/luciadaly/Desktop/Tripco/LekkeSlaapCard/src/pages/Index.vue")
 
 export default [
   {

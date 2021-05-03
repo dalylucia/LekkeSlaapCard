@@ -50,7 +50,7 @@
       <!-- <i class="fas fa-bath"></i> -->
       <!-- <i class="fas fa-parking"></i> -->
       <!-- <i class="fas fa-star"></i> -->
-      <!-- <i class="fas fa-map-marker-alt"></i> -->
+
 
       <!-- Card Text  -->
       <div class="card-text-container">
@@ -58,11 +58,7 @@
           <b-row>
             <b-col class="detail-bar">
               <div class="card-rating">
-                <b-icon
-                  icon="star-fill"
-                  aria-hidden="true"
-                  class="star-icon"
-                ></b-icon>
+                <font-awesome class="star-icon" :icon="['fas', 'star']" />
                 <p class="card-dynamic-text">
                   4.2 (88 reviews)
                 </p>
@@ -92,17 +88,17 @@
           </b-row>
           <b-row class="card-bar">
             <b-col class="card-bar-text" cols="6"
-              ><b-icon icon="signpost-split-fill"></b-icon>&nbsp; 4.4 km from
+              ><font-awesome class="card-bar-icons" :icon="['fas', 'map-marker-alt']"/>&nbsp; 4.4 km from
               Hout Bay</b-col
             >
             <b-col class="card-bar-text">
-              <b-icon icon="person-fill"></b-icon>&nbsp; 4
+              <font-awesome class="card-bar-icons" :icon="['fas', 'bed']"/>&nbsp; 4
             </b-col>
             <b-col class="card-bar-text">
-              <b-icon icon="signpost-split-fill"></b-icon>&nbsp; 3
+              <font-awesome class="card-bar-icons" :icon="['fas', 'bath']"/>&nbsp; 3
             </b-col>
             <b-col class="card-bar-text">
-              <b-icon icon="signpost-split-fill"></b-icon>&nbsp; 3
+              <font-awesome class="card-bar-icons" :icon="['fas', 'car']"/>&nbsp; 2
             </b-col>
           </b-row>
           <b-button size="sm" class="card-button">View more</b-button>
