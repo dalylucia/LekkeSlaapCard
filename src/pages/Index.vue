@@ -6,7 +6,7 @@
 
 <script>
 
-import Card from '@/components/Card.vue';
+import Card from '@/components/Card/Index.vue';
 
 export default {
   metaInfo: {

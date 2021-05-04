@@ -4,14 +4,18 @@
   </div>
 </template>
 
-<static-query>
-query {
-  metadata {
-    siteName
-  }
-}
-</static-query>
+<style lang="scss">
 
-<style>
+// iphone xs outline
+
+.wrapper {
+  max-width: 375px;
+  height: 812px;
+  background-color: $ls-white;
+  margin: auto;
+  margin-top: 5vh;
+  border-radius: 25px;
+  overflow-y: scroll;
+}
 
 </style>

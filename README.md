@@ -13,6 +13,10 @@ Install dependencies:
 
 `npm install`
 
+To restart server:
+
+press CTRL + C in terminal and run `gridsome develop`
+
 Run application:
 
 `npm run develop`
