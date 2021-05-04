@@ -119,3 +119,53 @@ export default {
   },
 };
 </script>
+
+<style lang="scss">
+
+// image slider
+
+.flicking {
+  height: 210px;
+  margin-left: 0;
+  padding-left: 0;
+  margin-bottom: 8px;
+}
+
+.image-slide {
+  width: 340px;
+  margin-right: 5px;
+  object-fit: cover;
+  height: 210px;
+  border-radius: $card-slide-border-radius;
+}
+
+.carousel-container {
+  position: relative;
+}
+
+// overlap slide elements
+
+.top-right {
+  position: absolute;
+  top: 8px;
+  right: 32px;
+  color: $ls-white;
+  z-index: 10000;
+  font-size: 16px;
+}
+
+.top-left {
+  position: absolute;
+  top: 12px;
+  left: 32px;
+  background-color: $ls-tahiti-gold-faded;
+  color: $ls-white;
+  z-index: 10000;
+  font-size: 10px;
+  font-weight: 500;
+  letter-spacing: 0.1em;
+  padding: 3px 8px;
+  border-radius: $card-text-border-radius;
+}
+
+</style>

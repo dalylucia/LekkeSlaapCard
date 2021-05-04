@@ -7,15 +7,11 @@ This project puts forward a new card design for the [Lekkeslaap](https://www.lek
 - [Gridsome](https://gridsome.org/)
 - [Vue-Bootstrap](https://bootstrap-vue.org/)
 
-### Running Instructions
+### Installation and Running Instructions
 
 Install dependencies:
 
 `npm install`
-
-To restart server:
-
-press CTRL + C in terminal and run `gridsome develop`
 
 Run application:
 
@@ -24,3 +20,7 @@ Run application:
 Build:
 
 `npm run build`
+
+To restart server:
+
+press CTRL + C in terminal and run `gridsome develop`

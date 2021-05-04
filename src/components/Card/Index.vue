@@ -17,7 +17,15 @@ export default {
   },
   components: {
     Slider,
-    Content
+    Content,
   },
 };
 </script>
+
+<style lang="scss">
+// card container
+
+.card-container {
+  padding-top: 60px;
+}
+</style>
