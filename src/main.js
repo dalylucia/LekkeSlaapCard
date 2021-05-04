@@ -8,7 +8,6 @@ import { config, library } from '@fortawesome/fontawesome-svg-core'
 import { } from '@fortawesome/fontawesome-free-solid'
 
 import '~/assets/scss/index.scss'
-import '~/assets/scss/phone.scss'
 
 import {BootstrapVue, IconsPlugin} from 'bootstrap-vue'
 import VueFlicking from "@egjs/vue-flicking"
