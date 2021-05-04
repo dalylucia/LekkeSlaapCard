@@ -17,10 +17,6 @@ Run application:
 
 `npm run develop`
 
-Build:
-
-`npm run build`
-
 To restart server:
 
 press CTRL + C in terminal and run `gridsome develop`
