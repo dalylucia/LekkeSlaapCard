@@ -15,7 +15,7 @@
   margin: auto;
   margin-top: 5vh;
   border-radius: 25px;
-  overflow-y: scroll;
+  overflow-y: hidden;
 }
 
 </style>
